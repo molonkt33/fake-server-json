@@ -1,74 +1,66 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "first_name": "Justina",
-      "last_name": "Ginglell",
-      "email": "jginglell0@networkadvertising.org",
-      "gender": "Female"
-    },
-    {
-      "id": 2,
-      "first_name": "Marion",
-      "last_name": "Jenman",
-      "email": "mjenman1@surveymonkey.com",
-      "gender": "Male"
-    },
-    {
-      "id": 3,
-      "first_name": "Alfy",
-      "last_name": "Begin",
-      "email": "abegin2@list-manage.com",
-      "gender": "Female"
-    },
-    {
-      "id": 4,
-      "first_name": "Karney",
-      "last_name": "Zanussii",
-      "email": "kzanussii3@hao123.com",
-      "gender": "Male"
-    },
-    {
-      "id": 5,
-      "first_name": "Reid",
-      "last_name": "Schapero",
-      "email": "rschapero4@timesonline.co.uk",
-      "gender": "Male"
-    },
-    {
-      "id": 6,
-      "first_name": "Dorine",
-      "last_name": "Braybrookes",
-      "email": "dbraybrookes5@gov.uk",
-      "gender": "Female"
-    },
-    {
-      "id": 7,
-      "first_name": "Sarena",
-      "last_name": "Frape",
-      "email": "sfrape6@alexa.com",
-      "gender": "Female"
-    },
-    {
-      "id": 8,
-      "first_name": "Malva",
-      "last_name": "Pierse",
-      "email": "mpierse7@usda.gov",
-      "gender": "Female"
-    },
-    {
-      "id": 9,
-      "first_name": "Rania",
-      "last_name": "Dablin",
-      "email": "rdablin8@state.gov",
-      "gender": "Female"
-    },
-    {
-      "id": 10,
-      "first_name": "Ingrim",
-      "last_name": "Offen",
-      "email": "ioffen9@slideshare.net",
-      "gender": "Male"
-    }
-  ]
+    "movies": [
+        {   "id": 1,
+            "title": "Doctor Strange",
+            "time": 115,
+            "genres": ["Action", "Adventure", "Fantasy"]
+        },
+        {
+            "id": 2,
+            "title": "Trolls",
+            "time": 92,
+            "genres": ["Animation", "Adventure", "Comedy", "Family", "Fantasy"]
+        },
+        {
+            "id": 3,
+            "title": "Jack Reacher: Never Go Back",
+            "time": 118,
+            "genres": ["Action", "Adventure", "Crime", "Mystery", "Thriller"]
+        }
+    ],
+
+    "actors": [
+        {
+            "id": 1,
+            "name": "Benedict Cumberbatch",
+            "movies": ["Doctor Strange", "The Imitation Game", "Black Mass"]
+        },
+        {
+            "id": 2,
+            "name": "Justin Timberlake",
+            "movies": ["Trolls", "Friends with Benefits", "The Social Network"]
+        },
+        {
+            "id": 3,
+            "name": "Anna Kendrick",
+            "movies": ["Pitch Perfect", "Into The Wood"]
+        },
+        {
+            "id": 4,
+            "name": "Tom Cruise",
+            "movies": [
+            "Jack Reacher: Never Go Back",
+            "Mission Impossible 4",
+            "War of the Worlds"
+            ]
+        }
+      ],
+
+    "directors": [
+        {
+            "id": 1,
+            "name": "Scott Derrickson",
+            "movies": ["Doctor Strange", "Sinister", "The Exorcism of Emily Rose"]
+        },
+        {
+            "id": 2,
+            "name": "Mike Mitchell",
+            "movies": ["Trolls", "Alvin and the Chipmunks: Chipwrecked", "Sky High"]
+        },
+        {
+            "id": 3,
+            "name": "Edward Zwick",
+            "movies": ["Jack Reacher: Never Go Back", "Blood Diamond", "The Siege"]
+        }
+    ]
 }
